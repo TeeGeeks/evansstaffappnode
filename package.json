@@ -1,0 +1,32 @@
+{
+  "name": "evansstaffappbackend",
+  "version": "0.0.0",
+  "description": "Evans Brothers Nigeria Publishers Staff Application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "author": "Omofoye Modupe Ruth",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "connect-session-sequelize": "^7.1.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.2",
+    "helmet": "^6.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.9.0",
+    "sequelize": "^6.28.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
